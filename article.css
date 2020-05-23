@@ -1,3 +1,4 @@
+/*fixed for article - in vw too small*/
 * {
   margin: 0;
   font: Arial, sans-serif; }
@@ -28,13 +29,17 @@ nav {
   justify-content: space-around; }
 
 div .art {
-  width: 740px;
+  width: 730px;
   padding: 0.5vw 0.5vw;
   margin: 0.5vw 0;
   background-color: lightgrey; }
 
+.art .image {
+  width: 730px;
+  height: 490px; }
+
 .art p {
-  font-size: 1.2vw; }
+  font-size: 14pt; }
 
 footer {
   background-color: black;
